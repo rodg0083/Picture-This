@@ -37,4 +37,15 @@ img {
   .header {
     grid-template-columns: repeat(2, 1fr);
   }
+  .landscape{
+    display: block;
+  }
+}
+@media (max-width: 960px) {
+  .header {
+    grid-template-rows: repeat(1fr 1fr);
+  }
+  .square{
+    display: block;
+  }
 }
