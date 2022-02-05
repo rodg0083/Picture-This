@@ -38,7 +38,7 @@ img {
     grid-template-columns: repeat(2, 1fr);
   }
   .landscape{
-    display: block;
+    display: none;
   }
 }
 @media (max-width: 960px) {
@@ -46,6 +46,6 @@ img {
     grid-template-rows: repeat(1fr 1fr);
   }
   .square{
-    display: block;
+    display: none;
   }
 }
